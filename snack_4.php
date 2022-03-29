@@ -10,3 +10,4 @@ while (count($arry) < 15) {
 }
 
 var_dump($arry);
+?>
