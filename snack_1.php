@@ -45,9 +45,7 @@
   ?>
     <li>
       <?php
-      echo "$partite[$i]['casa'] - $partite[$i]['ospite']";
-      // echo $partite[$i]['punti_casa'];
-      // echo $partite[$i]['punti_ospite'];
+      echo $partite[$i]['casa'] . ' - ' . $partite[$i]['ospite'] . ' | ' . $partite[$i]['punti_casa'] . ' - ' . $partite[$i]['punti_ospite'];
       ?>
     </li>
   <?php
@@ -56,8 +54,3 @@
 </body>
 
 </html>
-
-<!-- echo $partite[$i]['casa'];
-echo $partite[$i]['ospite'];
-echo $partite[$i]['punti_casa'];
-echo $partite[$i]['punti_opsite']; -->
