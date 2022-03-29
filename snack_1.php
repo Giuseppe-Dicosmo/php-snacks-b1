@@ -13,27 +13,27 @@
   $partite = [
     [
       'casa' => 'Basket Milano',
-      'opsite' => 'Basket Roma',
+      'ospite' => 'Basket Roma',
       'punti_casa' => 45,
-      'punti_opsite' => 21,
+      'punti_ospite' => 21,
     ],
     [
       'casa' => 'Basket Barletta',
-      'opsite' => 'Basket Foggia',
+      'ospite' => 'Basket Foggia',
       'punti_casa' => 34,
-      'punti_opsite' => 12,
+      'punti_ospite' => 12,
     ],
     [
       'casa' => 'Basket Andria',
-      'opsite' => 'Basket Trani',
+      'ospite' => 'Basket Trani',
       'punti_casa' => 58,
-      'punti_opsite' => 51,
+      'punti_ospite' => 51,
     ],
     [
       'casa' => 'Basket Bari',
-      'opsite' => 'Basket Trinitapoli',
+      'ospite' => 'Basket Trinitapoli',
       'punti_casa' => 60,
-      'punti_opsite' => 60,
+      'punti_ospite' => 60,
     ],
   ];
 
@@ -45,10 +45,9 @@
   ?>
     <li>
       <?php
-      echo $partite[$i]['casa'];
-      echo $partite[$i]['ospite'];
-      echo $partite[$i]['punti_casa'];
-      echo $partite[$i]['punti_opsite'];
+      echo "$partite[$i]['casa'] - $partite[$i]['ospite']";
+      // echo $partite[$i]['punti_casa'];
+      // echo $partite[$i]['punti_ospite'];
       ?>
     </li>
   <?php
@@ -58,7 +57,7 @@
 
 </html>
 
-echo $partite[$i]['casa'];
+<!-- echo $partite[$i]['casa'];
 echo $partite[$i]['ospite'];
 echo $partite[$i]['punti_casa'];
-echo $partite[$i]['punti_opsite'];
+echo $partite[$i]['punti_opsite']; -->
