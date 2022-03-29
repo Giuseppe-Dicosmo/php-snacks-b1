@@ -47,6 +47,9 @@ $alunni = $db['pm'];
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      display: inline-block;
+      color: White;
+      text-align: center;
     }
 
     .insegnanti {
@@ -65,7 +68,7 @@ $alunni = $db['pm'];
     <?php
     for ($i = 0; $i < count($insegnanti); $i++) {
     ?>
-      <li style="color: White;"><?php echo $insegnanti[$i]['name'] . ' ' . $insegnanti[$i]['lastname']; ?></li>
+      <li><?php echo $insegnanti[$i]['name'] . ' ' . $insegnanti[$i]['lastname']; ?></li>
 
     <?php
     }
@@ -77,7 +80,7 @@ $alunni = $db['pm'];
     <?php
     for ($i = 0; $i < count($alunni); $i++) {
     ?>
-      <li style="color: White;"><?php echo $alunni[$i]['name'] . ' ' . $alunni[$i]['lastname']; ?></li>
+      <li><?php echo $alunni[$i]['name'] . ' ' . $alunni[$i]['lastname']; ?></li>
 
     <?php
     }
